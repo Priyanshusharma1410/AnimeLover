@@ -1,0 +1,132 @@
+@media (max-width: 425px) {
+    #header{
+        border: 2px solid black;
+    }
+    
+    #search-box{
+        font-size: 10px;
+        border-radius: 6px;
+        width: 30vw;
+        /* width: 50%; */
+        overflow: hidden;
+    }
+    #searchbar{
+        display: none;
+    }
+
+    #icons h4 {
+       display: none;
+    }
+    #H2 nav h4{
+        height: 14px;
+        font-size: 2.5vw;
+        margin-right: 6px;
+    }
+    #H1 nav1{
+        width: 50%;
+        margin-left:20px;
+    }
+    #An{
+        font-size: 5.5vw;
+    }
+    #H1 {
+        height: 1.5vh;
+    }
+    
+}
+@media  (min-width: 426px) and (max-width: 800px){
+    #H1 nav1 i{
+        font-size: 20px;
+    }
+    #header{
+        border: 6px solid rgb(5, 5, 3);
+    }
+    #search-box{
+        font-size: 15px;
+        border-radius: 8px;
+        width: 25vw;
+    }
+    #searchbar{
+        margin-left: 2px;
+        font-size: 2vw;
+    }
+    #icons h4 {
+        font-size: 2vw;
+    }
+    #H2 nav h4{
+        height: 16px;
+        font-size: 1.5vw;
+        margin-right: 20px;
+    }
+    #An{
+        font-size: 4vw;
+    }
+    #H1 {
+        height: 5vh;
+    }
+    
+}
+@media (min-width: 800px) and (max-width: 1440px){
+    #H1 nav1 i{
+        font-size: 30px;
+    }
+    #header{
+        border: 6px solid rgb(234, 223, 31);
+    }
+    #search-box{
+        font-size: 17px;
+        border-radius: 8px;
+        width: 25vw;
+    }
+    #searchbar{
+        margin-left: 4px;
+        font-size: 1.6vw;
+    }
+    #icons h4 {
+        margin-right: 15px;
+        font-size: 1.8vw;
+    }
+    #H2 nav h4{
+        height: 18px;
+        font-size: 1.5vw;
+        margin-right: 20px;
+    }
+    
+    #An{
+        font-size: 4vw;
+    }
+    #H1 {
+        height: 6.5vh;
+    }
+    
+}
+@media (min-width: 1440px){
+    #header{
+        border: 5px solid pink;
+    }
+    #H1 nav1 i{
+        font-size: 35px;
+    }
+        #search-box{
+        font-size: 18px;
+        border-radius: 8px;
+        width: 20vw;
+     }
+    #searchbar{
+        margin-left: 12px;
+        font-size: 1.2vw;
+    }
+    #H2 nav h4{
+        height: 20px;
+        font-size: 1.3vw;
+        margin-right: 22px;
+    }
+    
+    #An{
+        font-size: 4vw;
+    }
+    #H1 {
+        height: 7vh;
+    }
+    
+}
